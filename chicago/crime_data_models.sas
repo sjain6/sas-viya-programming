@@ -8,7 +8,7 @@
 *                                                                            */ 
 *                                                                            */  
 ******************************************************************************/;
-
+//adding comment here as a test
 option casport=5570 cashost="cloud.example.com";
 cas casauto;
 caslib _all_ assign;
@@ -58,6 +58,7 @@ title;
 /*If you did not asssign the name chicago when you created the SAS library, substitute the value that you used. */
 libname chicago "/path/to/chicago";
 
+//adding comment here in case we change macro content
 proc casutil;
     load data=chicago.census replace;
     load data=chicago.crime replace;
